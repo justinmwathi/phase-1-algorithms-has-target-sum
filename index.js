@@ -1,6 +1,5 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
-  function hasTargetSum(array, target) {
     // Iterate through every number starting from index[0]
     for (let i = 0; i < array.length; i++) {
       // Still iterate through each number but with an index ahead of i
@@ -13,7 +12,7 @@ function hasTargetSum(array, target) {
     }
     // If no pair of numbers adds up to the target, return false
     return false;
-  }
+  
 }
 
 /* 
